@@ -1,0 +1,141 @@
+/* Container for the page */
+.about-us-container {
+    font-family: 'Arial', sans-serif;
+    padding: 40px;
+    background: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Main Title */
+  .about-us-title {
+    font-size: 48px;
+    color: #2a2a72;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  
+  /* Description Text */
+  .about-us-description {
+    font-size: 20px;
+    text-align: center;
+    color: #555;
+    margin-bottom: 40px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* Previous Concerts Section */
+  .concerts-title {
+    font-size: 36px;
+    color: #2a2a72;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: bold;
+  }
+  
+  /* Concert Items List */
+  .concerts-list {
+    margin-top: 20px;
+  }
+  
+  .concert-item {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .concert-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+  }
+  
+  .concert-item h3 {
+    font-size: 28px;
+    color: #2a2a72;
+  }
+  
+  .concert-item p {
+    font-size: 18px;
+    color: #666;
+    margin-top: 10px;
+  }
+  
+  /* Mission Section */
+  .mission-title {
+    font-size: 32px;
+    color: #2a2a72;
+    text-align: center;
+    margin-top: 40px;
+    font-weight: bold;
+  }
+  
+  .mission-description {
+    font-size: 20px;
+    text-align: center;
+    color: #555;
+    margin-top: 20px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.8;
+  }
+  
+  /* Address Section */
+  .address-container {
+    margin-top: 40px;
+    text-align: center;
+    background-color: #2a2a72;
+    padding: 30px;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .address-title {
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .address-details {
+    font-size: 18px;
+    margin-top: 10px;
+    line-height: 1.6;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .about-us-title {
+      font-size: 36px;
+    }
+  
+    .concert-item h3 {
+      font-size: 24px;
+    }
+  
+    .concert-item p {
+      font-size: 16px;
+    }
+  
+    .mission-title {
+      font-size: 28px;
+    }
+  
+    .mission-description {
+      font-size: 18px;
+    }
+  
+    .address-title {
+      font-size: 24px;
+    }
+  
+    .address-details {
+      font-size: 16px;
+    }
+  }
+  
